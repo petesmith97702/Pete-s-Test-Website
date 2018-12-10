@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120820601-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120820601-1');
+  gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
+
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NTPLMHJ');</script>
+<!-- End Google Tag Manager -->
+
+<meta charset="UTF-8">
+<title>File Not Found</title>
+<link rel="fonts" href="https://use.typekit.net/ddo4dpu.css">
+<link href="/styles.css" rel="stylesheet" type="text/css">
+	<style>
+body {
+  background-color: #fff;
+	margin: 0px;
+}
+
+
+
+
+.row:before, .row:after {
+  display: table;
+  content: " ";
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
+.col-md-push-3 {
+  margin-left: 25%;
+}
+
+
+.lead {
+  font-size: 21px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #3282e6;
+  text-decoration: none;
+}
+    </style>
+	<script src="script.js">
+	
+	</script>
+	<link rel="icon" href="images/favicon.jpg" type="image/jpg" sizes="16x16">
+	<style type="text/css">
+	.container1 {  margin-left:  auto;
+  margin-right:  auto;
+  margin-top: 177px;
+  max-width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+    </style>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NTPLMHJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <nav>
+    <a href="/">Blog</a>
+    <a href="map.html">Map of Oregon landmines</a>
+    <a href="submit.html">Submit a photo</a>
+    <a href="contact.html">Write the poop fairy</a>
+    </nav>
+  </div>
+</div>
+
+<div class="topnav" id="myTopnav">
+  <span style="font-size:17px;cursor:pointer;color:#aaa;float:left;display:block;text-decoration:none;padding: 14px 16px" onclick="openNav()">&#9776;</span>
+  <div class="search-container">
+    <form method="GET" action="search.php" id="searchform">
+      <input type="text" placeholder="Search..." name="query">
+      <button type="submit" value="Search"><i class="fa fa-search"></i></button></form></div>
+</div>
+
+<div class="hero">
+  <div class="container">
+        <div class="h1"><h1><a href="/">Waiting for the poop fairy</a></h1>
+                <h6>Why do people leave bags of<br>unattended dog waste along<br>Oregon's trails?</h6>
+        </div>
+				<img src="images/bag1.jpg" alt="Waiting for the poop fairy"/></div>
+</div>
+<div class="content" align="center" id="error">
+<svg height="100" width="100">
+    <polygon points="50,25 17,80 82,80" stroke-linejoin="round" style="fill:none;stroke:#ff8a00;stroke-width:8" />
+    <text x="42" y="74" fill="#ff8a00" font-family="sans-serif" font-weight="900" font-size="42px">!</text>
+  </svg>
+ <div class="row">
+    <div class="col-md-12">
+      <div class="main-icon text-warning"><span class="uxicon uxicon-alert"></span></div>
+        <h1>File not found (404 error)</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 col-md-push-3">
+      <p class="lead">If you think what you're looking for should be here, please contact the site owner.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

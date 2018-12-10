@@ -1,0 +1,21 @@
+{
+  "version": "http://www.bendplatform.com/feed.json",
+  "user_comment": "This feed allows you to read the posts from this site in any feed reader that supports the JSON Feed format. To add this feed to your reader, copy the following URL — http://www.bendplatform.com/feed.json — and add it your reader.",
+  "title": "JSON Feed",
+  "description": "JSON Feed of poop fairy rants.",
+  "home_page_url": "http://www.bendplatform.com/",
+  "feed_url": "http://www.bendplatform.com/feed.json",
+  "author": {
+    "name": "The poop fairy",
+    "url": "http://www.bendplatform.com/"
+  },
+  "items": [
+    {
+      "id": "1",
+      "date": "<date>JUNE 9, 2018</date>",
+      "hed": "<h2>Why????</h2>",
+      "story": "<p>I was hiking Pilot Butte this morning in Bend, OR, when I noticed something that is becoming a common occurrence: some bagged dog poop sitting on the side of the trail. What the hell! You mean to tell me that someone had the time and resources to wrap the offending substance in a non-biodegradable plastic bag, but expended so much energy that they could no longer carry it to a trash can. It would have been better if they left it unbagged so that it could biodegrade naturally. Now it will last forever until a magical poop fairy comes along to, uh, "ferry" the bag to its final destination. Why would someone do this? Either bag it and throw it away, or let nature take its course.</p>",
+      "rule": "<hr>"
+    }
+  ]
+}

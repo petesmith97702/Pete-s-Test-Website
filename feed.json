@@ -1,0 +1,50 @@
+{
+  "version": "http://www.bendplatform.com/feed.json",
+  "user_comment": "This feed allows you to read the posts from this site in any feed reader that supports the JSON Feed format. To add this feed to your reader, copy the following URL — http://www.bendplatform.com/feed.json — and add it your reader.",
+  "title": "JSON Feed",
+  "description": "JSON Feed of poop fairy rants.",
+  "home_page_url": "http://www.bendplatform.com/",
+  "feed_url": "http://www.bendplatform.com/feed.json",
+  "author": {
+    "name": "The poop fairy",
+    "url": "http://www.bendplatform.com/"
+  },
+  "items": [
+    {
+      "id": 1,
+      "date": "<date>JUNE 9, 2018</date>",
+      "hed": "<h2><a href="http://bendplatform.com/posts/why">Why????</a></h2>",
+      "story": "<p>I was hiking Pilot Butte this morning in Bend, OR, when I noticed something that is becoming a common occurrence: some bagged dog poop sitting on the side of the trail. What the hell! You mean to tell me that someone had the time and resources to wrap the offending substance in a non-biodegradable plastic bag, but expended so much energy that they could no longer carry it to a trash can. It would have been better if they left it unbagged so that it could biodegrade naturally. Now it will last forever until a magical poop fairy comes along to, uh, "ferry" the bag to its final destination. Why would someone do this? Either bag it and throw it away, or let nature take its course.</p>",
+      "pic": "<img class="blog-images" src="images/bag2.jpg" alt="Why do people leave dog waste bags by Oregon trails?"/>",
+      "rule": "<hr>"
+    }
+    {
+      "id": 2,
+      "date": "<date>JUNE 10, 2018</date>",
+      "hed": "<h2><a href="http://bendplatform.com/posts/im_not_the_only_one">I'm not the only one</a></h2>",
+      "story": "<p>Apparently other people in Oregon have noticed the dog poop disposal abdication of their fellow hikers. As reporter Zach Urness noted in the <a href="https://www.statesmanjournal.com/story/travel/outdoors/2015/04/15/doggy-doo-dance-orchard-heights/25841589/" target="_blank" rel="noopener">Salem Statesman Journal</a>, "People really do bag up dog turds and leave them for other people to pick up on a regular basis, in parks all over Oregon. It blew my mind because it makes no logical sense." If you too notice this Oregon phenomenon, please make sure to take a picture and email the poop fairy your story at <a href="mailto:poopfairyinoregon@gmail.com">poopfairyinoregon@gmail.com</a> and please include the photo!</p>",
+      "pic": "<img class="blog-images" src="images/salem.jpg" alt="Dog waste along trails is a problem in Salem, too"/>",
+      "rule": "<hr>"
+    }
+    {
+      "id": 3,
+      "date": "<date>JUNE 12, 2018</date>",
+      "hed": "<h2><a href="http://bendplatform.com/posts/readers_have_offered_some_explanations">Readers have offered some explanations</a></h2>",
+      "story": "<p>"I can answer your question regarding why people are leaving doggy bags beside the trail: They think it is the responsibility of someone else to pick up the bags and deposit them in the trash can," <a href="https://www.statesmanjournal.com/story/travel/outdoors/2015/04/22/pick-bagged-dog-poop/26203547/">said Betsy Belshaw</a>. "This logic was explained to me by a woman who was depositing a bag beside the trail as I came by. When I pointed out that the trash can was a short distance ahead, she informed me that she thought it was one of the duties of park patrol members to pick up her doggy bags and deposit them in the trash can."</p>
+
+<p>Let me answer everyone in doubt: It is no one's responsibility but YOURS to pickup after your dog. That includes throwing the bag away too.</p>
+
+<p>Tomorrow I'm going to try and find a psychologist who can explain the pathology behind this specific type of litterbug.</p>",
+      "pic": "<img class="blog-images" src="images/bag3.jpg" alt="Dog waste along trails is a problem in Salem, too"/>",
+      "rule": "<hr>"
+    }
+    {
+      "id": 4,
+      "date": "<date>JUNE 20, 2018</date>",
+      "hed": "<h2><a href="http://bendplatform.com/posts/pinterest_has_some_creative_solutions">Pinterest has some creative solutions</a></h2>",
+      "story": "<p>This problem of people leaving their dog poop bags is internationally recognized. The poop fairy on <a href="https://twitter.com/poopfairyoregon">Twitter</a> (@poopfairyoregon) has noticed people tweeting about the problem from as far away as Scotland. And some creative artisans have even come up with <a href="https://www.pinterest.com/pin/222083825352196322">special signs</a> to try and prevent the poop bag abandonments that currently defile our trails and parks. I wonder how effective these would be?</p>
+      "pic": "<img class="blog-images" src="images/pinterest.png" alt="Would a sign convince people to throw away poop bags?"/>",
+      "rule": "<hr>"
+    }
+  ]
+}

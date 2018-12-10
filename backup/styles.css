@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+
+/* Add search container */
+.topnav .search-container {
+  float: right;
+  z-index: 2 !important;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  z-index: 2 !important;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+.hero img {
+	width: 100%;
+    display: block;
+}
+
+.container {
+  margin-top: 0px;
+    position: relative;
+    text-align: center;
+    color: white;
+	border: none;	
+}
+
+.h1 {
+	position: absolute;
+  padding-top: 3%;
+  margin-right: 20px;
+	display: inline-block;
+	font-size: 36px;
+	font-size: 20vmax;
+	font-size: 4vmin;
+	width: 50%;
+	font-family: "kaffeesatz",sans-serif;
+	color: white;
+	overflow: hidden;
+}
+
+.h1 a {
+  text-decoration: none !important;
+  color: white;
+}
+
+.h6 {
+	position: absolute;
+	padding-top: 60%;
+	padding-left: 30%;
+	display:inline-block;
+	font-size: 16px;
+	font-size: 20vmax;
+	font-size: 4vmin;
+    width:50%;
+	font-family: "kaffeesatz",sans-serif;
+	color: white;
+	transform: translate(-50%, -50%);
+}
+
+.h6 a {
+  text-decoration: none !important;
+  color: white;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    font-family: "kaffeesatz",sans-serif;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #aaa;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+
+
+.content {
+    width:60%;
+    height:auto;
+    padding-left:20%;
+	padding-right:20%;
+  padding-left:20%;
+  padding-top:20px
+}
+
+switch {
+  text-align: center;
+  display: block;
+    font-size: 18px;
+  font-family: "kaffeesatz",sans-serif;
+  color: black;
+}
+
+switch a {
+  text-decoration: none !important;
+  color: black;
+}
+
+switch a:hover {
+  text-decoration: none !important;
+  color: white;
+}
+
+date {
+	text-align: left;
+	display: block;
+    font-size: 10px;
+	font-family: "kaffeesatz",sans-serif;
+	color: green;
+	padding-top: 2em;
+}
+
+h2 {
+	text-align: left;
+	display:block;
+    font-size: 24px;
+	font-family: "kaffeesatz",sans-serif;
+	color: black;
+}
+
+h2 a {
+  text-decoration: none !important;
+  cursor: pointer;
+  color: black;
+}
+
+h2 a:hover {
+  color: #111;
+}
+
+p {
+	text-align: left;
+	display:block;
+	line-height: 1.6;
+    font-size: 15px;
+	font-family: "kaffeesatz",sans-serif;
+	color: black;
+}
+
+.blog-images {
+	padding-top:20px;
+	padding-bottom:20px;
+	width:100%;
+	height:auto;
+}
+
+hr { 
+	background-color: green; 
+	height: 1px; 
+	border: 0; 
+}
+
+.bottom {
+    width:60%;
+    height:auto;
+    padding-left:20%;
+	padding-right:20%;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+/* When the screen is less than 600 pixels wide, change content width percentage*/
+ @media screen and (max-width: 600px) {
+  .content {
+    width:80%;
+    height:auto;
+    padding-left:10%;
+  padding-right:10%;
+  padding-top:20px;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}

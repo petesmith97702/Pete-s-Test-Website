@@ -1,0 +1,1 @@
+<p>Your AJAX test worked!</p>

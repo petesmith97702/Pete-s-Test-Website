@@ -1,0 +1,120 @@
+<!doctype php>
+<html>
+<head>
+<!-- Google Tag Manager -->
+<?php
+$servername = "localhost";
+$username = "petesmith";
+$password = "G5test1996";
+$dbname = "rants";
+$conn = new mysqli($servername, $username, $password, $dbname);
+$query = $_GET['key_id']; 
+$sql = "SELECT * FROM `stories` WHERE `key_id` = $query ";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+        echo "<article><date>" . $row["date"] . "</date>";
+        echo "<h2>" . $row["headline"] . "</h2>";
+        echo "<p>" . $row["story"] . "</p>";
+        echo "<img class='blog-images' src=" . $row["pic"] . "alt='Why do people leave dog waste bags by Oregon trails?'/>";
+        echo "<hr></article>";
+    }
+} else {
+    echo "0 results";
+}
+$conn->close();
+?>
+<!-- End Google Tag Manager -->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Test environment for DA WOW</title>
+<link href="http://bendplatform.com/G5/styles.css" rel="stylesheet" type="text/css">
+<link rel="fonts" href="https://use.typekit.net/ddo4dpu.css">
+<link rel="icon" href="http://bendplatform.com/G5/favicon.ico" type="image/x-icon">
+<style>
+
+
+
+
+</style>
+<script src="http://bendplatform.com/G5/script.js">
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5NXSPP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <nav>
+    <a href="http://bendplatform.com/G5/">Index page</a>
+    <a href="http://bendplatform.com/G5/current.php">Current Iteration</a>
+    <a href="http://bendplatform.com/G5/single.php">Single Domain Tests</a>
+    <a href="http://bendplatform.com/G5/multi.php">Multi Domain Tests</a>
+    </nav>
+  </div>
+</div>
+
+<div class="topnav" id="myTopnav">
+  <span style="font-size:17px;cursor:pointer;color:#aaa;float:left;display:block;text-decoration:none;padding: 14px 16px" onclick="openNav()">&#9776;</span>
+</div>
+
+<div class="content" align="center">
+	<h1>Here is the effect of the current GTM container</h1><br>
+	<div><p>This is the whitelisted phone number: <img src="phone.png" alt="Whitelisted phone number"/></p></div>
+	<div><p>This is the flipped phone number: 541-639-8518</p></div>
+
+<br>
+<div>
+	<h2>This is an external link: <a href="https://www.getg5.com" target="_blank">GetG5.com</a></h2>
+</div>
+<br>
+<div>
+	<h2>This is an iFrame:</h2>
+	<iframe src="http://bendplatform.com/G5/example.html" width="400" height="100"></iframe>
+</div>
+<br>
+<div id="demo">
+	<h2>This is an AJAX form</h2>
+	<button type="button" onclick="loadDoc()">Click me!</button>
+</div>
+<br>
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", "ajax_info.txt", true);
+  xhttp.send();
+}
+</script>
+
+<div>
+	<h2>This is a standard form</h2>
+	<form action="http://bendplatform.com/G5/submit.php" method="post" enctype="multipart/form-data">
+    <input type="text" name="textfield">
+    <input type="submit" value="Submit">
+</form>
+</div>
+<br>
+<div>
+	<h2>This form generates an error</h2>
+	<form action="http://bendplatform.com/G5/xxx.html" method="post" enctype="multipart/form-data">
+    <input type="text" name="error">
+    <input type="submit" name="Submit">
+</form>
+</div>
+</div>
+
+</body>
+</html>
